@@ -1,7 +1,7 @@
 <?php
 	/*
 	Plugin Name: درگاه دولتی بانک ملی ووکامرس
-	Plugin URI: https://sadadpsp.ir
+	Plugin URI: https://ravandsoft.com
 	Description: درگاه بانک ملی برای ووکامرس با قابلیت پرداخت شناسه‌دار
 	Version: 1.3.0
 	Author: http://ravandsoft.com
@@ -113,7 +113,7 @@
 			
 			public function __construct() {
 				$this->id = 'melli_pay';
-				$icon_path = plugin_dir_url(__FILE__) . 'images/logo.png';
+				$icon_path = plugin_dir_url(__FILE__) . 'images/logo.webp';
 				$this->icon = is_string($icon_path) ? esc_url($icon_path) : '';
 				$this->has_fields = false;
 				$this->order_button_text =(string) __('پرداخت', 'woocommerce');
